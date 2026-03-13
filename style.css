@@ -1,0 +1,43 @@
+/* IMPORTACIONES */
+@font-face {
+  font-family: "Pepsi Font";
+  src: url("/PepsiFont.ttf");
+}
+
+body {
+  background-color: lightgray;
+  margin: 0;
+  padding: 0;
+  font-family: "Pepsi Font";
+}
+
+ul li {
+  list-style: none;
+  a {
+    text-decoration: none;
+  }
+}
+
+.orientacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.logo_header {
+  height: 100px;
+}
+
+.header_class {
+  background-color: rgba(20, 10, 180, 0.25);
+  a {
+    color: rgb(50, 0, 200);
+    &::after {
+      color: rgb(50, 0, 200);
+    }
+    &:hover {
+      color: rgb(200, 0, 50);
+    }
+  }
+}
